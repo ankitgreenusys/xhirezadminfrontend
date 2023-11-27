@@ -15,12 +15,12 @@ import ResdexUpgrade from "./Components/ResdexUpgrade";
 
 function App() {
   return (
-    <>
+        <>
       <Header />
       <Routes>
-        <Route path="/" element={<>Home</>} />
-        <Route path="/about" element={<>About</>} />
-        <Route path="/contact" element={<>Contact</>} />
+        <Route path="/" element={<ListedJobs />} />
+        {/* <Route path="/about" element={<>About</>} />
+        <Route path="/contact" element={<>Contact</>} /> */}
         <Route path="/listedjobs" element={<ListedJobs />} />
         <Route path="/employee" element={<EmployeeList />} />
         <Route path="/employee/details" element={<EmployeeDeatils />} />
